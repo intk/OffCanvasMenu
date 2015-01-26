@@ -41,6 +41,10 @@ body {
 }
 
 body {
-  overflow-x:hidden;
+  overflow-x: hidden;
+}
+
+body.canvas-slid {
+  pointer-events: none;
 }
 
