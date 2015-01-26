@@ -56,5 +56,6 @@ body.canvas-slid .navmenu {
 
 body.canvas-slid {
   z-index: 1;
+  pointer-events:none !important;
 }
 
