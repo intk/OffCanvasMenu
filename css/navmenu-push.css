@@ -50,3 +50,11 @@ body.canvas-slid {
   -ms-overflow-style: -ms-autohiding-scrollbar !important;
 }
 
+body.canvas-slid .navmenu {
+  z-index: 99;
+}
+
+body.canvas-slid {
+  z-index: 1;
+}
+
