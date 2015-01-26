@@ -2,15 +2,19 @@
 
 $(document).ready(function() {
 
-	$('.container').on('touchstart', function(e) {
+	$('body').on('touchstart', function(e) {
 		if ($('body').hasClass('canvas-slid')) {
-			e.preventDefault();
+			if ($(e.target).hasClass('container')) {
+				e.preventDefault();
+			}
 		}
 	});
 
-	$('.container').on('touchmove', function(e) {
+	$('body').on('touchmove', function(e) {
 		if ($('body').hasClass('canvas-slid')) {
-			e.preventDefault();
+			if ($(e.target).hasClass('container')) {
+				e.preventDefault();
+			}
 		}
 	});
 })
