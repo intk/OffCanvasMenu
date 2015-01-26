@@ -29,10 +29,18 @@ body {
 }
 
 .navmenu {
+  left: 0;
+  right: 100%;
   overflow: hidden;
   overflow-y: auto;
+  overflow-x: hidden;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-overflow-scrolling: touch;
   -ms-overflow-style: -ms-autohiding-scrollbar;
 }
+
+body {
+  overflow-x:hidden;
+}
+
