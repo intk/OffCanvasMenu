@@ -45,6 +45,7 @@ body {
 }
 
 body.canvas-slid {
-  pointer-events: none;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
 }
 
