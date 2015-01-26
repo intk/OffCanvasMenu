@@ -45,7 +45,8 @@ body {
 }
 
 body.canvas-slid {
-  -webkit-overflow-scrolling: touch;
-  -ms-overflow-style: -ms-autohiding-scrollbar;
+  overflow-x: hidden !important;
+  -webkit-overflow-scrolling: touch !important;
+  -ms-overflow-style: -ms-autohiding-scrollbar !important;
 }
 
